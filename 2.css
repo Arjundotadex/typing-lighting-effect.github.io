@@ -1,0 +1,215 @@
+body{
+    scroll-behavior: smooth;
+    background-color:rgb(161, 156, 156);
+}
+.effect{
+   
+    background:#07252d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 6em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height:1em ;
+    outline: none;
+    animation: animate 5s linear infinite;
+    color:#0e3742;
+    border-radius: 30px;
+}
+
+@keyframes animate{
+    0% ,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color:#0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color:#fff;
+        box-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+       
+    }
+
+}
+.b1{
+  
+        border-radius: 30px;
+        background-color: rgb(60, 60, 112);
+        padding: 15px;
+        width: 50%;
+        height: 50px;
+        text-align: center;
+        margin: auto;
+        color:cyan;
+        font-weight: bold;
+        font-size: 50px;
+        border-style: solid;
+
+    
+}
+.b{
+    text-align: center;
+    background-color: rgb(118, 145, 185);
+    font-size: 33px;
+    width: 100%;
+    height: 24%;
+    margin: auto;
+    border-style: dotted;
+
+}
+.c{   text-align: center;
+    background-color: rgb(133, 102, 204);
+    font-size: 33px;
+    color:brown;
+    border-radius: 30px;
+    width: 10%;
+    margin: auto;
+    height: 50px;
+    border-style: solid;
+}
+.d {
+    height: 50px;
+    width: 65%;
+    background-color: rgb(118, 145, 185);
+    margin:auto;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(0, 34, 184);
+    
+}
+.e{
+    border-radius: 30px;
+    background-color: rgb(60, 60, 112);
+    padding: 15px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+    margin: auto   ;
+    color:cyan;
+    font-weight: bold;
+   
+}
+ul{
+    background-color: rgb(118, 145, 185);
+    font-size: 33px;
+    border-style: dotted;
+}
+.f{
+    border-style: solid;
+    border-radius: 30px;
+    background-color: rgb(60, 60, 112);
+    padding: 15px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    color:cyan;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.g{ text-align: center;
+    background-color: rgb(118, 145, 185);
+    font-size: 33px;
+    width: 100%;
+    height: 27%;
+    margin: auto;
+    border-style: dotted;
+
+}
+.d1{
+    border-radius: 30px;
+    background-color: rgb(60, 60, 112);
+    padding: 15px;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    color:cyan;
+    font-weight: bold;
+    font-size: 30px;
+    border-style: solid;
+}
+.d2{
+ height: 50px;
+    width: 65%;
+    background-color: rgb(118, 145, 185);
+    margin:auto;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(0, 34, 184);
+}
+.h{
+    border-radius: 30px;
+    background-color: rgb(60, 60, 112);
+    padding: 15px;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    color:cyan;
+    font-weight: bold;
+    font-size: 30px;
+    border-style: solid;
+
+}
+.i{
+    background-color: rgb(118, 145, 185);
+    margin:auto;
+    font-size: 30px;
+    font-weight: bold;
+    color:yellow;
+    border-style: dotted;
+}
+.m{
+    height: 10px;
+    width: auto;
+    background-color: red;
+}
+.m2{
+    height: 10px;
+    width: auto;
+    background-color: red;
+}
+.m3{    height: 10px;
+    width: auto;
+    background-color: red;
+
+}
+.j{
+    border-radius: 30px;
+    background-color: rgb(60, 60, 112);
+    padding: 20px;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    color:cyan;
+    font-weight: bold;
+    font-size: 40px;
+    border-style: solid;
+}
+.j2{
+    text-align:justify;
+    background-color: rgb(118, 145, 185);
+    font-size: 33px;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    border-style: dotted;
+}
+
